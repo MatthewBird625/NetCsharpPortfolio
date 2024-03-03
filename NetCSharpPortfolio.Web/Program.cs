@@ -1,3 +1,8 @@
+using MudBlazor.Services;
+using NetCSharpPortfolio.Data.Services;
+using NetCSharpPortfolio.Data.Services.Implementation;
+using NetCSharpPortfolio.UiLogic.ViewModels;
+using NetCSharpPortfolio.UiLogic.ViewModels.Implementation;
 using NetCSharpPortfolio.Web.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +10,12 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+builder.Services.AddMudServices();
+
+builder.Services
+    .AddTransient<IHomeViewModel, HomeViewModel>()
+    .AddTransient<IPortfolioDataService, PortfolioDataService>();
 
 var app = builder.Build();
 
