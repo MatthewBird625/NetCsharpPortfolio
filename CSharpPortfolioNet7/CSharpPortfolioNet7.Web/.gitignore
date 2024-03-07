@@ -1,4 +1,6 @@
+.vs/
 /.vs
+.vs\
 /bin
 /obj
 *.user
