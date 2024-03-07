@@ -1,0 +1,15 @@
+﻿@using CSharpPortfolioNet7.Web.Pages.Components;
+@using CSharpPortfolioNet7.Web.Shared;
+
+@page "/"
+
+<div>
+    <MudGrid Spacing="0">
+        <MudItem xs="12">
+            <NavMenu></NavMenu>
+        </MudItem>
+        <MudItem xs="12">
+            <HeaderComponent Model="@Model.Header"/>
+        </MudItem>
+    </MudGrid>
+</div>

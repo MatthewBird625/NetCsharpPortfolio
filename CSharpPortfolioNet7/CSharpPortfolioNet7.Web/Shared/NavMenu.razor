@@ -1,0 +1,29 @@
+﻿<div>
+        <MudGrid Spacing="0" Class="topnav big-screen d-flex">
+            <MudHidden Breakpoint="Breakpoint.SmAndDown">
+                <MudItem xs="0" sm="8" Class="d-flex flex-row justify-content-between mx-auto">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#resume">Resume</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </MudItem>
+        </MudHidden>
+
+        <MudHidden Breakpoint="Breakpoint.MdAndUp">
+            <MudItem xs="12" sm="0" Class="d-flex flex-row justify-content-between mx-auto">
+                <MudExpansionPanels>
+                    <MudExpansionPanel Class="topnav topnav-expander" IsExpanded="@NavMenuExpanded" onclick="@NavMenuToggled">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#resume">Resume</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </MudExpansionPanel>
+                </MudExpansionPanels>
+            </MudItem>
+        </MudHidden>
+
+    </MudGrid>
+
+</div>
