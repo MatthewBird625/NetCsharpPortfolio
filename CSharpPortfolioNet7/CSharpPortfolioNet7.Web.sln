@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPortfolioNet7.Web", "CSharpPortfolioNet7.Web\CSharpPortfolioNet7.Web.csproj", "{50C821BE-F42D-4858-BCD4-9F50D6614CBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPortfolioNet7.Web", "CSharpPortfolioNet7.Web\CSharpPortfolioNet7.Web.csproj", "{50C821BE-F42D-4858-BCD4-9F50D6614CBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPortfolioNet7.Data", "CSharpPortfolioNet7.Data\CSharpPortfolioNet7.Data.csproj", "{E743704A-5D37-44B3-95E2-7D9A0F0C32F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPortfolioNet7.Data", "CSharpPortfolioNet7.Data\CSharpPortfolioNet7.Data.csproj", "{E743704A-5D37-44B3-95E2-7D9A0F0C32F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPortfolioNet7.UiLogic", "CSharpPortfolioNet7.UiLogic\CSharpPortfolioNet7.UiLogic.csproj", "{6FBD9508-479B-422F-8EF3-443D94B04DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPortfolioNet7.UiLogic", "CSharpPortfolioNet7.UiLogic\CSharpPortfolioNet7.UiLogic.csproj", "{6FBD9508-479B-422F-8EF3-443D94B04DC5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPortfolioNet7.UiLogic.Test", "CSharpPortfolioNet7.UiLogic.Test\CSharpPortfolioNet7.UiLogic.Test.csproj", "{5F4EFEBC-E3BD-425C-B186-2F4236744C5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPortfolioNet7.UiLogic.Test", "CSharpPortfolioNet7.UiLogic.Test\CSharpPortfolioNet7.UiLogic.Test.csproj", "{5F4EFEBC-E3BD-425C-B186-2F4236744C5E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

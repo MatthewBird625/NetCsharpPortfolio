@@ -13,6 +13,7 @@ namespace CSharpPortfolioNet7.UiLogic.Test.Models
             var model = new Header()
             {
                 Description = "Description",
+                GitHub = "GitHub",
                 Linkedin = "Link",
                 Name = "Name",
                 Role = "Role"
@@ -21,6 +22,7 @@ namespace CSharpPortfolioNet7.UiLogic.Test.Models
             var result = HeaderModelMap.Map(model);
 
             Assert.AreEqual("Description", result.Description);
+            Assert.AreEqual("GitHub", result.GitHub);
             Assert.AreEqual("Link", result.Linkedin);
             Assert.AreEqual("Name", result.Name);
             Assert.AreEqual("Role", result.Role);

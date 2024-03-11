@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Html
+<div>
+<MudGrid Spacing="3" Class="about-section pa-4">
+        <MudItem xs="12" sm="12" md="4" Class="d-flex">
+
+            <MudImage 
+                Src="/images/profile.jpg"
+                Alt="profile picture"
+                Class="mx-auto ma-8"
+                Elevation="25"
+                Height="120"
+                Style="border-radius: 50%;"
+            />
+        </MudItem>
+
+        <MudItem xs="12" sm="12" md="8">
+            <MudGrid Spacing="3">
+                <MudItem xs="12" Class="d-flex flex-column">
+                    <MudText Typo="Typo.h4">About me</MudText>
+                </MudItem>
+                <MudItem xs="12" md="9" Class="d-flex flex-column">
+                    <MudText Typo="Typo.body1">@Model.AboutMe</MudText>
+                </MudItem>
+                <MudItem xs="12" Class="d-flex flex-column">
+                    <MudText Typo="Typo.h4">Contact Details</MudText>
+                </MudItem>
+                <MudItem xs="12" md="9" Class="d-flex flex-column">
+                    <MudText Typo="Typo.body1">@Model.Address</MudText>
+                </MudItem>
+                <MudItem xs="12" md="9" Class="d-flex flex-column">
+                    <MudLink Class="contact-url" Href="@Model.ContactUrl">@Model.ContactTitle</MudLink>
+                </MudItem>
+            </MudGrid>
+        </MudItem>
+</MudGrid>
+</div>

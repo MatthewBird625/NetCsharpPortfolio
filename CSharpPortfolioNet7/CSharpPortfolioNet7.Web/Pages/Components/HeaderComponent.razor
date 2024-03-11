@@ -8,10 +8,20 @@
         <MudItem xs ="12" md="7" Class="mx-auto">
             <MudText Typo="Typo.body1">@Model.Description</MudText>
         </MudItem>
+
+        <MudItem xs="10" sm="7" md="6" Class="d-flex mx-auto mt-4">
+            <MudDivider Class="mx-auto"></MudDivider>
+        </MudItem>
+
+        <MudItem xs="12" Class="mt-4">
+                <div class="d-flex flex-row justify-content-center">
+                    <a href="@Model.Linkedin"><MudIcon Class="mx-4" Icon="@Icons.Custom.Brands.LinkedIn" Title="GitHub" Size="Size.Large" Style="color: white;" /></a>
+                    <a href="@Model.GitHub"><MudIcon Class="mx-4" Icon="@Icons.Custom.Brands.GitHub" Title="GitHub" Size="Size.Large" Style="color: white;" /></a>
+            </div>
+
+        </MudItem>
     </MudGrid>
     
-
-    <h3></h3>
 </div>
 
 
