@@ -1,8 +1,15 @@
 ﻿{
+  "About": {
+    "AboutMe": "After graduating with distinction in IT (2022), I moved into specializing in Full-Stack Development. I've honed my skills in MVVM architecture and test-driven development, ensuring robust and innovative web applications. Currently, I'm dedicated to enhancing member experiences at the Victorian Chamber of Commerce through application customization, optimizing operations, and driving automation. Outside of technology, I find joy in fitness and culinary exploration, alongside pursuits in audio production and sound design. My journey is fueled by a passion for technology, creativity, and relentless pursuit of excellence.",
+    "Address": "Melbourne - Australia",
+    "ContactTitle": "Linkedin",
+    "ContactUrl": "https://www.linkedin.com/in/matthew-bird-96363313a/"
+  },
   "Header": {
     "Description": "Experienced Full-Stack Developer skilled in MVVM architecture, test-driven development, and fast-paced Enterprise Systems Development. Proficient in crafting internal applications to optimize business operations and enhance automation.",
+    "GitHub": "https://github.com/MatthewBird625",
     "Name": "Matthew Bird",
     "Role": "Enterprise Software Developer",
-    "Linkedin": "linkedin.com/in/matthew-bird-96363313a"
+    "Linkedin": "https://linkedin.com/in/matthew-bird-96363313a"
   }
- }
+}

@@ -1,5 +1,6 @@
 ﻿using CSharpPortfolioNet7.Data.Services;
 using CSharpPortfolioNet7.UiLogic.Models;
+using System.Reflection;
 
 namespace CSharpPortfolioNet7.UiLogic.ViewModels.Implementation
 {
@@ -18,6 +19,7 @@ namespace CSharpPortfolioNet7.UiLogic.ViewModels.Implementation
         {
             var portfolioData =  _portfolioService.GetPortfolioData();
 
+            Model.About = AboutModelMap.Map(portfolioData.About);
             Model.Header = HeaderModelMap.Map(portfolioData.Header); 
         }
     }

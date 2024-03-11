@@ -9,6 +9,7 @@ namespace CSharpPortfolioNet7.UiLogic.Models
             return new HeaderModel()
             {
                 Description = source.Description,
+                GitHub = source.GitHub,
                 Linkedin = source.Linkedin,
                 Name = source.Name,
                 Role = source.Role

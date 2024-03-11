@@ -1,0 +1,13 @@
+﻿::deep .about-section {
+    background-color: rgb(51, 51, 51);
+}
+
+::deep .contact-url {
+    color: white !important;
+}
+
+::deep p {
+    color: rgb(122, 122, 122) !important;
+    font-size: 1.2em !important;
+    line-height: 1.5em;
+}
